@@ -7,13 +7,13 @@ return [
     'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
     'bootstrap' => [
         'log',
-        'app\bootstrap\Bootstrap',
+        //'app\bootstrap\Bootstrap',
     ],
-    /*'container' => [
+    'container' => [
         'singletons' => [
             'app\dispatchers\EventDispatcher' => ['app\dispatcher\DummyEventDispatcher'],
         ]
-    ],*/
+    ],
     'components' => [
         'cache' => [
             'class' => 'yii\caching\FileCache',

@@ -20,7 +20,8 @@
         "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
         "elisdn/yii2-composite-form": "^1.1",
         "beberlei/assert": "^3.2",
-        "ramsey/uuid": "^3.8"
+        "ramsey/uuid": "^3.8",
+        "ocramius/proxy-manager": "^2.2"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.1.0",
